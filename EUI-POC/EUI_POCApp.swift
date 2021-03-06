@@ -5,8 +5,8 @@
 //  Created by Leif on 3/5/21.
 //
 
-import SwiftUI
 import EUI
+import SwiftUI
 import ScreenData
 
 @main
@@ -16,7 +16,7 @@ struct EUI_POCApp: App {
             app: EUIApp(
                 launchScreen: EUIScreen(
                     id: "launch",
-                    title: "Laucnch Screen!",
+                    title: "Launch Screen!",
                     backgroundColor: .green,
                     headerView: nil,
                     bodyView: .button(SomeButton(title: "Loading", actionID: "print"))
