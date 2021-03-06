@@ -58,3 +58,11 @@ struct EUI_POCApp: App {
     }
 }
 ```
+
+## Example Images
+
+### Initial
+![init](.media/init_screen.png)
+
+### Another
+![another](.media/another_screen.png)
