@@ -33,7 +33,7 @@
         "repositoryURL": "https://github.com/0xLeif/EUI.num",
         "state": {
           "branch": "main",
-          "revision": "4a96cdd10db03f5acc5fdf06864a52fda81e05c7",
+          "revision": "341d4160762fab6a9c17511aed566273b7f7a2bb",
           "version": null
         }
       },
@@ -78,8 +78,8 @@
         "repositoryURL": "https://github.com/ServerDriven/ScreenDataUI-ios",
         "state": {
           "branch": null,
-          "revision": "f1d8fb6c3bb402bd67cabb8813b31440fba67f2a",
-          "version": "0.4.0"
+          "revision": "aeb34b1ea8082d6fd9231e8d1949eb5ac47fc2a2",
+          "version": "0.5.0"
         }
       },
       {

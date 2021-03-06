@@ -14,6 +14,13 @@ struct EUI_POCApp: App {
     var body: some Scene {
         EUIAppScene(
             app: EUIApp(
+                launchScreen: EUIScreen(
+                    id: "launch",
+                    title: "Laucnch Screen!",
+                    backgroundColor: .green,
+                    headerView: nil,
+                    bodyView: .button(SomeButton(title: "Loading", actionID: "print"))
+                ),
                 initialScreen: EUIScreen(
                     id: "initial",
                     title: "Initial Screen!",
@@ -38,7 +45,15 @@ struct EUI_POCApp: App {
                 ],
                 actions: [
                     EUIAction(id: "print", action: .complete(.void { print("Hello, World!")}))
-                ]
+                ],
+                fonts: EUIFonts(
+                    largeTitle: nil,
+                    title: .footnote,
+                    headline: nil,
+                    body: nil,
+                    footnote: nil,
+                    caption: nil
+                )
             )
         )
     }
