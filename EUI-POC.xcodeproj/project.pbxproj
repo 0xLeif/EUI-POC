@@ -3,20 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		5CA129EE25F2EEEB00CD44CF /* EUI_POCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA129ED25F2EEEB00CD44CF /* EUI_POCApp.swift */; };
-		5CA129F025F2EEEB00CD44CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA129EF25F2EEEB00CD44CF /* ContentView.swift */; };
 		5CA129F225F2EEEC00CD44CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA129F125F2EEEC00CD44CF /* Assets.xcassets */; };
 		5CA129F525F2EEEC00CD44CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CA129F425F2EEEC00CD44CF /* Preview Assets.xcassets */; };
+		5CABB93425F311F300E1D3A6 /* EUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5CABB93325F311F300E1D3A6 /* EUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5CA129EA25F2EEEB00CD44CF /* EUI-POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EUI-POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CA129ED25F2EEEB00CD44CF /* EUI_POCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUI_POCApp.swift; sourceTree = "<group>"; };
-		5CA129EF25F2EEEB00CD44CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5CA129F125F2EEEC00CD44CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CA129F425F2EEEC00CD44CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5CA129F625F2EEEC00CD44CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CABB93425F311F300E1D3A6 /* EUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +38,7 @@
 			children = (
 				5CA129EC25F2EEEB00CD44CF /* EUI-POC */,
 				5CA129EB25F2EEEB00CD44CF /* Products */,
+				5CABB93225F311F200E1D3A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				5CA129ED25F2EEEB00CD44CF /* EUI_POCApp.swift */,
-				5CA129EF25F2EEEB00CD44CF /* ContentView.swift */,
 				5CA129F125F2EEEC00CD44CF /* Assets.xcassets */,
 				5CA129F625F2EEEC00CD44CF /* Info.plist */,
 				5CA129F325F2EEEC00CD44CF /* Preview Content */,
@@ -67,6 +67,13 @@
 				5CA129F425F2EEEC00CD44CF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5CABB93225F311F200E1D3A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +92,9 @@
 			dependencies = (
 			);
 			name = "EUI-POC";
+			packageProductDependencies = (
+				5CABB93325F311F300E1D3A6 /* EUI */,
+			);
 			productName = "EUI-POC";
 			productReference = 5CA129EA25F2EEEB00CD44CF /* EUI-POC.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +122,9 @@
 				Base,
 			);
 			mainGroup = 5CA129E125F2EEEB00CD44CF;
+			packageReferences = (
+				5CA129FD25F2EF2B00CD44CF /* XCRemoteSwiftPackageReference "EUI" */,
+			);
 			productRefGroup = 5CA129EB25F2EEEB00CD44CF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +151,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CA129F025F2EEEB00CD44CF /* ContentView.swift in Sources */,
 				5CA129EE25F2EEEB00CD44CF /* EUI_POCApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +340,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5CA129FD25F2EF2B00CD44CF /* XCRemoteSwiftPackageReference "EUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/0xLeif/EUI.num";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5CABB93325F311F300E1D3A6 /* EUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CA129FD25F2EF2B00CD44CF /* XCRemoteSwiftPackageReference "EUI" */;
+			productName = EUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5CA129E225F2EEEB00CD44CF /* Project object */;
 }

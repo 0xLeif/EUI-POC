@@ -1,0 +1,106 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Chain",
+        "repositoryURL": "https://github.com/0xLeif/Chain",
+        "state": {
+          "branch": null,
+          "revision": "e693d4dcc8b21910299c076346f62d4de80a4aa8",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "Combino",
+        "repositoryURL": "https://github.com/0xLeif/Combino",
+        "state": {
+          "branch": null,
+          "revision": "321e1123d4346203db196ffd4e65f10a03748f00",
+          "version": "0.2.0"
+        }
+      },
+      {
+        "package": "E",
+        "repositoryURL": "https://github.com/0xLeif/E.num",
+        "state": {
+          "branch": null,
+          "revision": "a4b2b0cf453edf2e2b3853cdcdd7c8596cadbf43",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "EUI",
+        "repositoryURL": "https://github.com/0xLeif/EUI.num",
+        "state": {
+          "branch": "main",
+          "revision": "4a96cdd10db03f5acc5fdf06864a52fda81e05c7",
+          "version": null
+        }
+      },
+      {
+        "package": "Fake",
+        "repositoryURL": "https://github.com/0xLeif/Fake",
+        "state": {
+          "branch": null,
+          "revision": "617cc60b35040494923304ad1c3fd4356371daaa",
+          "version": "0.1.1"
+        }
+      },
+      {
+        "package": "Observation",
+        "repositoryURL": "https://github.com/0xLeif/Observation",
+        "state": {
+          "branch": null,
+          "revision": "3f3e0e9514df41a8e0a473099eb7eb87c9763a69",
+          "version": "0.0.1"
+        }
+      },
+      {
+        "package": "ScreenData",
+        "repositoryURL": "https://github.com/ServerDriven/ScreenData-swift",
+        "state": {
+          "branch": null,
+          "revision": "5fdd95437ac874124e40a2e46ec26075a3e5308f",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "ScreenDataNavigation",
+        "repositoryURL": "https://github.com/ServerDriven/ScreenDataNavigation-swift",
+        "state": {
+          "branch": null,
+          "revision": "239659fa1724e60591ee42d9f477c521d4699853",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "ScreenDataUI",
+        "repositoryURL": "https://github.com/ServerDriven/ScreenDataUI-ios",
+        "state": {
+          "branch": null,
+          "revision": "f1d8fb6c3bb402bd67cabb8813b31440fba67f2a",
+          "version": "0.4.0"
+        }
+      },
+      {
+        "package": "SURL",
+        "repositoryURL": "https://github.com/0xLeif/SURL",
+        "state": {
+          "branch": null,
+          "revision": "2ad0e8a6b097334e9317b7e6ec94c701d946861f",
+          "version": "0.1.0"
+        }
+      },
+      {
+        "package": "xColor",
+        "repositoryURL": "https://github.com/0xLeif/xColor",
+        "state": {
+          "branch": null,
+          "revision": "af32e6050a408b3ec0d5ee2746068acefc10458d",
+          "version": "0.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
